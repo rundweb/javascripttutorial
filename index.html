@@ -47,6 +47,15 @@
     header p{
         cursor: pointer;
     }
+
+    .aksi .aksi-btn{
+      display: none;
+    }
+
+    .aksi.show .aksi-btn{
+      display: flex;
+      justify-content: space-around;
+    }
   </style>
   <body>
     <div class="popup-box">
@@ -72,6 +81,8 @@
       </div>
     </div>
 
+    
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="main.js"></script>
   </body>
 </html>
